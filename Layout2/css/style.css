@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+.main-background {
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+    background-image: url(../image/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+h4 {
+    font-size: 40px;
+    margin: 0;
+}
+button {
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+button:active {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.information {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border: 3px dotted salmon;
+    position: relative;
+    margin: auto;
+    padding-top: 50px;
+    margin-top: -30px;
+}
