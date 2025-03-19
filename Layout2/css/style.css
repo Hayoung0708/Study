@@ -1,38 +1,70 @@
-body {
-    margin: 0;
-    text-align: center;
-}
-.main-background {
-    width: 100%;
-    height: 500px;
-    padding-top: 30px;
-    background-image: url(../image/image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-}
-h4 {
-    font-size: 40px;
-    margin: 0;
-}
-button {
-    width: 100px;
-    height: 50px;
-    border: 2px solid black;
-    border-radius: 15px;
-    background-color: rgb(255, 255, 255, 0.5);
-}
-button:active {
-    background-color: rgba(255, 255, 255, 0);
+.wrapper {
+    width: 1000px;
+    height: 300px;
+    border: 1px solid black;
 }
 
-.information {
-    width: 300px;
-    height: 100px;
-    background-color: white;
-    border: 3px dotted salmon;
-    position: relative;
-    margin: auto;
-    padding-top: 50px;
-    margin-top: -30px;
+
+.left {
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 50px 0 0 40px;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 20%;
+}
+.header img {
+    width: 50px;
+    float: left;
+    border-radius: 100%;
+}
+.header p {
+    margin: 3px 0 0 60px;
+}
+.header p:nth-child(3) {
+    font-size: 13px;
+    color: gray;
+}
+
+.content {
+    width: 100%;
+}
+h1 {
+    margin: 10px 0 0 0;
+    font-weight: 800;
+    font-size: 20px;
+}
+.content p {
+    margin: 10px 0 0 0;
+    color: gray;
+}
+
+.footer {
+    height: 10%;
+    float: right;
+
+}
+.footer img {
+    height: 100%;
+}
+
+.right {
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+.right .img {
+    width: 70%;
+    display : block;
+    margin : auto;
+    padding-top: 40px;
+}
+.right .plus {
+    width: 35px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin: -35px 0 0 220px;
 }
